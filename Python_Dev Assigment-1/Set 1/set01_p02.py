@@ -1,0 +1,12 @@
+import array
+arr=array.array('i',[10,20,30,40,50])
+arr.append(60)
+print("After append :",arr)
+arr.insert(1,15)
+print("After insert :",arr)
+arr.remove(30)
+print("After remove :",arr)
+arr.pop(0)
+print("After pop :",arr)
+arr.reverse()
+print("After reverse :",arr)
